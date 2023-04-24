@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto' >
         <NavLink to="/" className="flex items-center gap-2" onClick={()=>window.scrollTo(0,0)} >
           <img src={logo} alt="logo" className='w-p h-9 object-contain'  />
-          <p className=' text-[18px] font-bold cursor-pointer ' >Murat Cihan <span className='sm:inline-block hidden' >| JsMaster </span></p>
+          <p className=' text-[18px] font-bold cursor-pointer ' >Murat Cihan <span className='sm:inline-block hidden' >| Full Stack Jr Developer </span></p>
         </NavLink>
         <ul className='list-none hidden sm:flex flex-row gap-10' >
           {navLinks.map((link)=>{
