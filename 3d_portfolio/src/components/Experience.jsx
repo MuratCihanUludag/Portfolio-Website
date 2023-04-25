@@ -1,5 +1,11 @@
 import React from 'react'
-
+import { VerticalTimeLine, VerticalTimeLineElement } from "react-vertical-timeline-component"
+import {motion} from "framer-motion"
+import { styles } from '../styles'
+import { experiences } from '../constants'
+import { SectionWrapper } from '../hoc'
+import { textVariant } from '../utils/motion'
+import "react-vertical-timeline-component/style.min.css"
 const Experience = () => {
   return (
     <div>Experience</div>
