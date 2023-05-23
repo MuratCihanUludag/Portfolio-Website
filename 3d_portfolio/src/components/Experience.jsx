@@ -21,7 +21,7 @@ const ExperienceCard = ({experience})=>{
       <ul>
         {experience.points.map((point,index)=>{
           return(
-            <li key={`experienc-point-${index}`} className='text-white-100 text-[14px] pl-1 tracking-wide ' >
+          <li key={`experienc-point-${index}`} className='text-white-100 text-[14px] pl-1 tracking-wide ' >
             {point}
           </li>
           )
@@ -42,7 +42,7 @@ const Experience = () => {
         <VerticalTimeline>
           {experiences.map((experience,index)=>{
             return(
-              <ExperienceCard experience={experience} />
+              <ExperienceCard key={index} experience={experience} />
             )
           })}
         </VerticalTimeline>
